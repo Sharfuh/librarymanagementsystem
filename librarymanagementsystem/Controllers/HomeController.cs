@@ -15,14 +15,14 @@ namespace librarymanagementsystem.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Welcome to the Library Management System. This application helps you manage books, members, and transactions.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "If you have any questions or need assistance, feel free to contact us.";
 
             return View();
         }
